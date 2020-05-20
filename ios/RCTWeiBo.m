@@ -147,9 +147,6 @@ RCT_EXPORT_METHOD(login:(NSDictionary *)config :(RCTResponseSenderBlock)callback
         case WeiboSDKResponseStatusCodeUserCancelInstall:
             errMsg = @"用户取消安装微博客户端";
             break;
-        // case WeiboSDKResponseStatusCodePayFail:
-        //     errMsg = @"支付失败";
-        //     break;
         case WeiboSDKResponseStatusCodeShareInSDKFailed:
             errMsg = @"分享失败";
             break;
